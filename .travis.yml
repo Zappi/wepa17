@@ -1,6 +1,6 @@
 language: java
 deploy:
  provider: heroku
- api-key: 
+ api-key:  642d8f6e-a4c3-4154-95af-8fb48c4fda36
   secure: $HEROKU_API_KEY
  app: wepa-testi
