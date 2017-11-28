@@ -1,6 +1,8 @@
 language: java
 deploy:
- provider: heroku
- api-key:  642d8f6e-a4c3-4154-95af-8fb48c4fda36
-  secure: $HEROKU_API_KEY
- app: wepa-testi
+  provider: heroku
+  api_key:
+    secure: Yk3RfW6qL3qN3igm2YORjr8sYaC2wTGKi6sOj3mOnziuR9LKfDipmC9idKPWx7b1l1lcvYiyIh6yu5LoViqSzBd2hAT0uFRrymqNq3jYuUBee0oUMvgRmOIXChUrFCuxh4zE3BJ+Nn3ag4A5dLpAKCnNWbFV+Sc+P6ygfh4K+8FR/yb6gYLx/p2PKDZCu6JxeYCkBJV5mhwrEb3DADrPt/cBukuIc5BliRXGMdiO6hBifypGgvCpQV54FEDfDh3c2lMvlGNxix7QYXGBRL3lyBJrwAe24CFDcvQe7XXhgXptbi+1fLFbkI6WtBQR/nuh9AW3387VdN+JQAycuqVuKzJLNeXeN1az54O0d2a1ojpqrG5g5tWL0Ab8PbGGM3gaGoTBgAsjK0QHzgXITfjK9YN2byobPU5EVPBh/P9VqMvnz+qsSjCsRgysksOpISW2/pxks9LbRFiw8DtaHqK5dCb3R7OcIwVFGFejbCHVvFn1KVnWgIk1blJsnGYM6WWiuGHUM7Ewem078YIKxG6yNYmizjd5ZXewQetr6gO7tvGYekNBkkSn9GiemHteqTIS6OWu1pCDWhQrqXicidlHq8CJQw7FpsE2dzgNXWorBYdREh7yeHyknhEujdp2BKYYnp/G7dwou71GEXvQGiH5tL8d1ZC2Du1AWGFH5iHBhh8=
+  app: wepa17
+  on:
+    repo: Zappi/wepa17
