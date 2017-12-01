@@ -18,6 +18,7 @@ public class AliveController {
     @GetMapping("/")
     public String list(Model model) {
         model.addAttribute("items", itemRepository.findAll());
+        System.out.println("");
         return "index";
     }
 
